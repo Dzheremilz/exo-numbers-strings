@@ -15,9 +15,9 @@ J'ai rêvé dans la grotte où nage la sirène...
 Et j'ai deux fois vainqueur traversé l'Achéron ;
 Modulant tour à tour sur la lyre d'Orphée
 Les soupirs de la sainte et les cris de la fée.`
-const regex = /[aàeéêèiouùyœ]/g
+const regex = /[aàeéêèiouùyœ]/gi
 
-const result = msg.toLowerCase().match(regex)
+const result = msg.match(regex)
 console.log(`Il y a ${result.length} voyelles dans ce texte`)
 
 let x = 0
