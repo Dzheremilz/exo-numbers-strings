@@ -16,7 +16,7 @@ Et j'ai deux fois vainqueur traversé l'Achéron ;
 Modulant tour à tour sur la lyre d'Orphée
 Les soupirs de la sainte et les cris de la fée.`
 const char = 'e'
-const regex = /[Ee]/g
+const regex = /[e]/gi   // g: global check the whole txt, i: insensitive ignore case
 
 let x = 0
 
